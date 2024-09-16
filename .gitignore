@@ -1,3 +1,17 @@
+
+# git init
+# git add .
+# git commit -m "Initial commit or your commit message"
+# git remote add origin https://github.com/your-username/stokestan.git
+# git push -u origin main
+
+# git add .gitignore
+
+
+# git add .
+# git commit -m "Describe the changes you made"
+# git push
+
 venv/
 .venv
 venv.bak/
@@ -9,3 +23,12 @@ __pycache__/
 *$py.class
 
 
+# Database files
+# *.sqlite3
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.so
+*.db
