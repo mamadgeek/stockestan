@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>افزودن به سبد خرید</title>
+    <link rel="stylesheet" href="testcss.css">
+</head>
+
+<body>
+
+    <h3> this is the showing</h3>
+    
+    {% for item in cart_all %}
+        {{item.model_name  }} - {{item.brand  }}
+    {% endfor %}
+
+</body>
+
+</html>

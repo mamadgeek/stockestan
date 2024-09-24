@@ -27,7 +27,7 @@ class Stock_laptops(models.Model):
     # comments=  
     class Meta: 
         ordering=('-created_at',)
-
+    
     def __str__(self) -> str:
         return f"{self.model_name} - {self.brand}"
     # def __str__(self) -> str:
